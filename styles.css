@@ -1,0 +1,131 @@
+body{
+    background-color: #001B3A;
+}
+
+.top-banner{
+    text-align: center;
+}
+.heading{
+    color:white;
+    font-size: 5rem;
+    font-family: 'Shippori Antique', sans-serif;
+}
+input{
+
+    width:30%;
+   
+    outline:none;
+    background: none; /* This is to remove the default white box of the input field */
+    border-right: none;
+    
+     caret-color: aliceblue;
+     color: White;
+}
+/* now changing the size and color of the placeholder text */
+input,
+input::-webkit-input-placeholder {
+    font-size: 40px;
+    color:white;
+
+}
+button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Shippori Antique', sans-serif;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:900px){
+   .top-banner{
+       margin-left:1.5rem;
+       margin-right:1.5rem;
+   }
+   input{
+       width:100%;
+   }
+  button{
+      width:100%;   
+      margin-top: 30px;
+  }
+}
+
+
+.city {
+  
+  padding: 40px ;
+ 
+  border-radius: 20px;
+  background-color:white;
+  }
+
+figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+.city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+  }
+  
+.city sup {
+    font-size: 0.5em;
+  }
+  
+    .city-name sup {
+    padding: 0.2em 0.6em;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+  }
+  
+ .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 32px 20px;
+  }
+   
+ @media screen and (max-width: 1000px) { 
+     ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+   ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 500px) {  
+    ul{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  } 
+
+  .msg{
+    color: white;
+    margin-top: 10px;
+    font-size:20px;
+  }
+
+ 
+  
+
+
+  
+  
